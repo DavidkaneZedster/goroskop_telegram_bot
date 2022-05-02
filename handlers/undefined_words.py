@@ -2,16 +2,7 @@ from aiogram import types, Dispatcher
 from aiogram.utils import text_decorations
 from create_bot import dp
 
-incorrect_words = ["блять", "сука", "хуй", "ебал", "чанда", "пидор", "пидр", "уёбок", "уёбище", "уебок", "уебище", "хуйло", "гандон", "петушара", "соси", "нахуй", "пошел нахуй"]
-incorrect_words_dot = ["блять.", "сука.", "хуй.", "ебал.", "чанда.", "пидор.", "пидр.", "уёбок.", "уёбище.", "уебок.", "уебище." "хуйло.", "гандон.", "петушара.", "соси.", "нахуй.", "пошел нахуй."]
-
-
 dunno_words = [""]
-
-# parol = ["Это", "я."]
-# async def compliment(message : types.message):
-#     if any(word in message.text.lower() for word in parol):
-#         await message.reply('Приветствую Вас!')
 
 # @dp.message_handler()
 async def new_word(message : types.message):
